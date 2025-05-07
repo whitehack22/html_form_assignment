@@ -1,1 +1,1 @@
-# This sis a registration form
+# This is a registration form
