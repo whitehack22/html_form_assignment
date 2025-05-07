@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment One</title>
+</head>
+<body>
+    <h2>Registration Page</h2>
+    <!--Registration form-->
+    <form id="registration_form">
+        <input type="text" name="First Name" placeholder="First Name" required><br><br>
+        <input type="text" name="Last Name" placeholder="Last Name" required><br><br>
+        <input type="email" name="Email" placeholder="Email" required><br><br>
+        <input type="text" name="Phone Number" placeholder="Phone Number" required><br><br>
+        <input type="number" name="Age" placeholder="Age" required><br><br>
+        <input type="password" name="Password" placeholder="Password" minlength="7" required><br><br>
+        <input type="password" name="Confirm Password" placeholder="Confirm Password" minlength="7" required><br><br>
+        <label for="Gender">Gender:</label><br>
+
+        <!--radio buttons-->
+        <input type="radio" name="Male" id="Male" value="Male" >
+        <label for="Male">Male</label>
+        <input type="radio" name="Female" id="Female" value="Female">Female
+        <label for="radio" name="Female"></label><br><br>
+
+        <!--Dropdown menu-->
+        <label for="Country" name="Country">Home Country:</label>
+        <select name="Country" id="Country">
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Somalia">Somalia</option>
+            <option value="Burundi">Burundi</option>
+            <option value="South Sudan">South Sudan</option>
+            <option value="Ethiopia">Ethiopia</option>
+        </select><br><br>
+
+        <!--Checkbox-->
+        <input type="checkbox" name="Terms and Conditions" id="Terms and Conditions" value="Terms and Conditions" required>
+        <label for="Terms and Conditions">I agree to the Terms and Conditions</label><br><br>
+
+        <!--Buttons-->
+        <button id="submit_button" type="submit">Submit</button>
+        <button id="reset_button" type="reset">Reset</button>
+
+    </form>
+</body>
+</html>
